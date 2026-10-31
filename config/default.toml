@@ -1,0 +1,7 @@
+[download]
+output_dir = "~/Music/SONORA"
+audio_format = "mp3"
+audio_quality = "192"
+embed_thumbnail = true
+write_metadata = true
+noplaylist = false

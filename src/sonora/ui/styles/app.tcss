@@ -1,0 +1,88 @@
+Screen {
+    background: #10141d;
+    color: #e6eaf2;
+}
+
+Header {
+    background: #171e2b;
+    color: #e6eaf2;
+}
+
+Footer {
+    background: #171e2b;
+    color: #aab5c7;
+}
+
+#app-title {
+    color: #a5b4fc;
+    text-style: bold;
+    padding: 1 2 0 2;
+}
+
+#subtitle {
+    color: #8995a9;
+    padding: 0 2 1 2;
+}
+
+#url-label, .section-label {
+    color: #a5b4fc;
+    text-style: bold;
+    padding: 1 2 0 2;
+}
+
+#url-row {
+    height: auto;
+    padding: 0 2;
+}
+
+#url-input {
+    width: 1fr;
+    border: round #46536b;
+}
+
+Button {
+    margin-left: 1;
+    background: #29364b;
+    color: #f3f4f6;
+    border: none;
+}
+
+Button:hover {
+    background: #3b4c68;
+}
+
+Button.primary {
+    background: #5966b3;
+    color: white;
+}
+
+#status-line {
+    color: #aab5c7;
+    padding: 1 2;
+    height: 3;
+}
+
+#queue-table {
+    height: 1fr;
+    margin: 0 2 1 2;
+    border: round #303b50;
+}
+
+#help-line {
+    color: #8995a9;
+    padding: 0 2 1 2;
+}
+
+DataTable {
+    background: #141b27;
+    color: #e6eaf2;
+}
+
+DataTable > .datatable--header {
+    background: #222d40;
+    color: #c7d2fe;
+}
+
+Input:focus {
+    border: round #8997ff;
+}
